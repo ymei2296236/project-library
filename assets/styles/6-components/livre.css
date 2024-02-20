@@ -1,0 +1,29 @@
+/* COMPONENT - LIVRE */
+
+.livre {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.livre__flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.livre__prix {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.livre__button {
+	border: 1px solid black;
+	padding: 0.3rem 0.5rem;
+	background-color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.livre__button:hover {
+	background-color: #eee;
+}

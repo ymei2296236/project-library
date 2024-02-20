@@ -1,0 +1,6 @@
+/* OBJECT - FILTRE */
+
+.filtreActive {
+	text-decoration: solid underline black 2.5px;
+	text-underline-offset: 0.3rem;
+}

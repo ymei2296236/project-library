@@ -1,0 +1,49 @@
+/* ELEMENTS */
+
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 8vw;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	cursor: pointer;
+	list-style: none;
+	padding-bottom: 1rem;
+}
+
+li:hover {
+	text-decoration: solid underline black 2.5px;
+	text-underline-offset: 0.3rem;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+th,
+td {
+	width: 15rem;
+	padding: 0.2rem 0.5rem;
+	font-size: 0.9rem;
+	text-align: left;
+	line-height: 1.2rem;
+}
+
+th:last-child,
+td:last-child {
+	width: 4rem;
+}

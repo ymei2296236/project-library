@@ -1,0 +1,64 @@
+/* COMPONENT - MODAL */
+
+.modal {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 9vw 18vw;
+	transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.modal--ferme {
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(100px);
+}
+
+.modal--ouvert {
+	opacity: 1;
+}
+
+.modal__icon::before {
+	content: "";
+	background: linear-gradient(
+			transparent,
+			transparent 14px,
+			white 14px,
+			white,
+			16px,
+			transparent 16px
+		),
+		linear-gradient(
+			to right,
+			transparent,
+			transparent 14px,
+			white 14px,
+			white,
+			16px,
+			transparent 16px
+		);
+	height: 30px;
+	right: 30px;
+	top: 30px;
+	position: absolute;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+	width: 30px;
+}
+
+.modal__contenu {
+	display: flex;
+	background-color: white;
+	padding: 4rem;
+	gap: 4rem;
+	position: relative;
+}
+
+.modal__texte,
+.modal__img {
+	flex: 1;
+}
